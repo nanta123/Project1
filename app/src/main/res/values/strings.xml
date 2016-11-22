@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Project1</string>
     <string name="title_activity_popular">PopularActivity</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
 </resources>
