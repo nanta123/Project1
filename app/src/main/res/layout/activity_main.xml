@@ -19,6 +19,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
         android:scaleType="fitXY"
         android:src="@drawable/logo" />
 
@@ -27,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:layout_weight="0.07"
         android:background="#ff2d2b"
         android:src="@drawable/b_list" />
@@ -53,7 +54,7 @@
         android:src="@drawable/b_favorite" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButtonClose"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"

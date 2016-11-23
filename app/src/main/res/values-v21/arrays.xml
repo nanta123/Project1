@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="places">
+        <item>24 Hours</item>
+        <item>Fastfood</item>
+        <item>Italian</item>
+        <item>Seafood</item>
+        <item>Japanese</item>
+        <item>Burgers N Steak</item>
+        <item>Desserts</item>
+        <item>Coffee N Snacks</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>Tersedia Restaurant yang buka sampai 24 Jam</item>
+        <item>Menyediakan daftar restaurant penyaji makanan cepat</item>
+        <item>Menyediakan restaurant dengan tema ala Italian</item>
+        <item>Menyediakan restaurant dengan menu serba masakan laut</item>
+        <item>Menyediakan restaurant dengan tema ala Jepang</item>
+        <item>Menyediakan daftar restaurant penyaji Burger</item>
+        <item>Menyediakan restaurant dengan menu Segar (cocok suasana panas)</item>
+        <item>Menyediakan restaurant dengan menu camilan / makanan ringan (Snack / Coffee)</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>00:00 - 23:59</item>
+        <item>00:00 - 23:59</item>
+        <item>08:00 - 21:00</item>
+        <item>10:00 - 22:00</item>
+        <item>07:00 - 18:00</item>
+        <item>09:00 - 20:00</item>
+        <item>09:30 - 20:30</item>
+        <item>07:00 - 19:00</item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>Jl. Kawi  Atas No. 38, Klojen, Malang</item>
+        <item>Jl. Brigjen Slamet No. 1~3, Klojen, Malang</item>
+        <item>Jl. Danau Toba No. E4/A140, Kedungkandang, Malang</item>
+        <item>2-3-1 Asakusa, Taitō~ku, Tokyo, Japan</item>
+        <item>Jl. Danau Toba No. 1, KedungKandang, Malang</item>
+        <item>Jl. Danau Toba No. E4/A140, Kedungkandang, Malang</item>
+        <item>2-3-1 Asakusa, Taitō~ku, Tokyo, Japan</item>
+        <item>Jl. Danau Toba No. 1, KedungKandang, Malang</item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/tvhours</item>
+        <item>@drawable/fastfood</item>
+        <item>@drawable/italian</item>
+        <item>@drawable/seafood</item>
+        <item>@drawable/japanese</item>
+        <item>@drawable/burgersnsteak</item>
+        <item>@drawable/desserts</item>
+        <item>@drawable/coffeensnacks</item>
+    </array>
+</resources>

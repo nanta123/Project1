@@ -43,22 +43,22 @@ public class PopularActivity extends AppCompatActivity implements HotelAdapter.I
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        RecyclerView recyclerView2 = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView2.setLayoutManager(layoutManager);
         mAdapter = new HotelAdapter(this, mList);
-        recyclerView.setAdapter(mAdapter);
+        recyclerView2.setAdapter(mAdapter);
 
-        fillData();
+        fillData1();
     }
 
-    private void fillData() {
+    private void fillData1() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places);
-        String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
-        String[] arDetail = resources.getStringArray(R.array.business_hour);
-        String[] arLokasi = resources.getStringArray(R.array.place_locations);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arJudul = resources.getStringArray(R.array.tempat);
+        String[] arDeskripsi = resources.getStringArray(R.array.describ_tempat);
+        String[] arDetail = resources.getStringArray(R.array.jam_buka);
+        String[] arLokasi = resources.getStringArray(R.array.tempat_lokasi);
+        TypedArray a = resources.obtainTypedArray(R.array.poto_tempat);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);

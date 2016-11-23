@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string-array name="places">
+    <string-array name="tempat">
         <item>Java Dancer</item>
         <item>Panties Pizza</item>
         <item>Warung Pasta</item>
@@ -22,7 +22,7 @@
         <item>Peco Peco Sushi</item>
         <item>Burger Van</item>
     </string-array>
-    <string-array name="place_desc">
+    <string-array name="describ_tempat">
         <item>Java Dancer is a local coffee depot first opened in Malang, East Java, in December 2008.</item>
         <item>Panties Pizza is stall "folding pizza" first in the city of Solo, standing since 2012.</item>
         <item>Warung Pasta is a restaurant that serves a variety of menus focus of processed pasta fusion Asian flavor</item>
@@ -30,7 +30,7 @@
         <item>Sushi options here that fusion more than nigiri / original Japanese.</item>
         <item>Burger Van Malang is the first mobile food van in Malang.</item>
     </string-array>
-    <string-array name="business_hour">
+    <string-array name="jam_buka">
         <item>08:00 - 23:30</item>
         <item>11:00 - 22:00</item>
         <item>10:00 - 23:59</item>
@@ -38,7 +38,7 @@
         <item>10:00 - 22:00</item>
         <item>14:00 - 22:00</item>
     </string-array>
-    <string-array name="place_locations">
+    <string-array name="tempat_lokasi">
         <item>Jl. Kahuripan No. 12, Klojen, Malang</item>
         <item>Ruko Grand Soekarno Hatta A5, Lowokwaru, Malang</item>
         <item>Jl. Jakarta No. 26, Penanggungan, Malang</item>
@@ -46,7 +46,7 @@
         <item>Mall Olympic Garden, LG, Jl. Kawi, Klojen, Malang</item>
         <item>Jl. Simpang Balapan No. 7, Oro-Oro Dowo, Klojen, Malang</item>
     </string-array>
-    <array name="places_picture">
+    <array name="poto_tempat">
         <item>@drawable/coffeensnacks1</item>
         <item>@drawable/italian3</item>
         <item>@drawable/italian2</item>
