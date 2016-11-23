@@ -1,9 +1,11 @@
 package id.sch.smktelkom_mlg.project.xirpl604132231.project1.model;
 
+import java.io.Serializable;
+
 /**
  * Created by Muchsin on 28/10/2016.
  */
-public class Hotel {
+public class Hotel implements Serializable {
     public String judul;
     public String deskripsi;
     public String detail;

@@ -25,8 +25,10 @@ public class DetailpopularActivity extends AppCompatActivity {
         setTitle(hotel.judul);
         ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
         ivFoto.setImageURI(Uri.parse(hotel.foto));
-        TextView tvDeskripsi = (TextView) findViewById(R.id.business_hour);
-        tvDeskripsi.setText(hotel.deskripsi + "\n\n" + hotel.detail);
+        TextView tvDeskripsi = (TextView) findViewById(R.id.place_detail);
+        tvDeskripsi.setText(hotel.deskripsi);
+        TextView tvDetail = (TextView) findViewById(R.id.business_hour);
+        tvDetail.setText(hotel.detail);
         TextView tvLokasi = (TextView) findViewById(R.id.place_location);
         tvLokasi.setText(hotel.lokasi);
 

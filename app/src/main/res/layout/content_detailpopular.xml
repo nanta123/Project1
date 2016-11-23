@@ -20,6 +20,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:text="Description"
+            android:textColor="?attr/colorAccent" />
+
+        <TextView
+            android:id="@+id/place_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            tools:text="Deskripsi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:text="Business Hour"
             android:textColor="?attr/colorAccent" />
 
@@ -27,7 +41,7 @@
             android:id="@+id/business_hour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="business hour" />
+            tools:text="Business Hour" />
 
         <TextView
             android:layout_width="match_parent"
