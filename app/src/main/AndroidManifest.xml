@@ -35,7 +35,8 @@
         <activity
             android:name=".Describ_list"
             android:label="@string/title_activity_describ_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailTfActivity"></activity>
     </application>
 
 </manifest>

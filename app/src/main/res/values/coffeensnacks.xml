@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="placesCoffee">
+        <item>Java Dancer</item>
+        <item>Coffee Toffee</item>
+        <item>Starbucks Coffee</item>
+        <item>Excelso</item>
+        <item>Vosco Coffee</item>
+    </string-array>
+    <string-array name="bussiness_hourCoffee">
+        <item>08:00 - 23:30</item>
+        <item>12:00 - 24:00</item>
+        <item>10:00 - 22:00</item>
+        <item>10:00 - 21:30</item>
+        <item>08:00 - 22:50</item>
+    </string-array>
+    <string-array name="place_locationsCoffee">
+        <item>Jl. Kahuripan No. 12, Klojen, Malang</item>
+        <item>Jl. Jakarta No. 58, Oro-Oro Dowo, Klojen, Malang</item>
+        <item>Jl. Terusan Dieng No. 31, Pisang Candi, Sukun, Malang</item>
+        <item>Jl. Kawi Atas No. 24 Mall Olympic Garden, Malang</item>
+        <item>Jl. Borobudur No. 27 A, Lowokwaru, Malang</item>
+    </string-array>
+</resources>

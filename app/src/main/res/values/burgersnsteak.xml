@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="placesBurger">
+        <item>Eat Two Burger</item>
+        <item>Burger Van</item>
+        <item>Burger Buto</item>
+        <item>Malibu Steak</item>
+    </string-array>
+    <string-array name="bussiness_hourBurger">
+        <item>10:00 - 23:00</item>
+        <item>14:00 - 22:00</item>
+        <item>12:30 - 21:30</item>
+        <item>12:00 - 22:00</item>
+    </string-array>
+    <string-array name="place_locationsBurger">
+        <item>65 Kav 7, Jl. Terusan Dieng, Malang</item>
+        <item>Jl. Simpang Balapan No. 7, Oro-Oro Dowo, Klojen, Malang</item>
+        <item>Jl. Sarangan No. 27, Lowokwaru, Malang</item>
+        <item>Jl. Terusan Kawi 6C - 6D, Malang</item>
+    </string-array>
+</resources>
