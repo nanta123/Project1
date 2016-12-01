@@ -51,15 +51,6 @@
         android:layout_marginTop="5dp"
         android:layout_weight="0.07"
         android:background="@android:color/transparent"
-        android:src="@drawable/b_favorite" />
+        android:src="@drawable/b_favotrite" />
 
-    <ImageButton
-        android:id="@+id/imageButtonClose"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="8dp"
-        android:layout_weight="0.07"
-        android:background="@android:color/transparent"
-        android:src="@drawable/b_exit" />
 </LinearLayout>

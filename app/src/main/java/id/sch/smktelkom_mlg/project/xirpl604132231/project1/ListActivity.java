@@ -38,6 +38,8 @@ public class ListActivity extends AppCompatActivity implements HotelAdapter.IHot
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
         String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
+        String[] arDetail = resources.getStringArray(R.array.place_details);
+        String[] arLokasi = resources.getStringArray(R.array.place_locations);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -50,7 +52,7 @@ public class ListActivity extends AppCompatActivity implements HotelAdapter.IHot
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i], arDetail[i], arLokasi[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
@@ -66,7 +68,7 @@ public class ListActivity extends AppCompatActivity implements HotelAdapter.IHot
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, Describ_list.class);
+        Intent intent = new Intent(this, DetailActivityList.class);
         intent.putExtra(HOTEL, mList.get(pos));
         startActivity(intent);
     }

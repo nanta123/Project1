@@ -4,13 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:label="Go Resto"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainActivity"
             android:noHistory="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -33,10 +32,9 @@
             android:label="@string/title_activity_detailpopular"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Describ_list"
-            android:label="@string/title_activity_describ_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DetailTfActivity"></activity>
+            android:name=".DetailActivityList"
+            android:label="@string/title_activity_detail_activity_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
