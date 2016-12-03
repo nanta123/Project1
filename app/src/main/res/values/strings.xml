@@ -95,4 +95,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_describ_list">Describ_list</string>
     <string name="title_activity_detail_activity_list">DetailActivityList</string>
+    <string name="title_activity_aboutme">aboutme</string>
 </resources>
