@@ -22,7 +22,7 @@ public class ListActivity extends AppCompatActivity implements HotelAdapter.IHot
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-
+        setTitle("Restaurant List");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         RecyclerView recyclerView1 = (RecyclerView) findViewById(R.id.recyclerViewList);

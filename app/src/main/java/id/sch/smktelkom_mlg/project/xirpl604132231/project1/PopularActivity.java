@@ -31,6 +31,7 @@ public class PopularActivity extends AppCompatActivity implements HotelAdapter.I
         setContentView(R.layout.activity_popular);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        setTitle("Recommended Restaurant");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
