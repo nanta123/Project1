@@ -11,7 +11,7 @@ Aplikasi ini merupakan aplikasi yang berisi tentang info restaurant di kota Mala
 [![7.png](https://s24.postimg.org/dhfddl2r9/image.png)](https://postimg.org/image/rb3q2mvch/)<br /><br />
 **Download Aplikasi**<br />
 [Link APK](https://drive.google.com/file/d/0B3YoxNuFOXpUTGdwWE13ZkVULWc/view?usp=sharing)<br />
-[Link Zip](https://drive.google.com/file/d/0B3YoxNuFOXpUOThfcWlRWjRCMjg/view?usp=sharing)<br />
+[Link Zip](https://drive.google.com/file/d/0B3YoxNuFOXpUOThfcWlRWjRCMjg/view?usp=sharing)<br /><br />
 **Identitas Kelompok 4**<br />
 - Nama : Ananta Zulqurtubi<br /> 
 - Kelas : XI RPL 6<br />
@@ -22,7 +22,7 @@ Aplikasi ini merupakan aplikasi yang berisi tentang info restaurant di kota Mala
 - Nama : Jadinta Salsabilah<br /> 
 - Kelas : XI RPL 6<br />
 - No Absen : 13<br /> 
-- NIS : 4760/1479.070<br />
+- NIS : 4729/1448.070<br />
 - Sekolah : SMK TELKOM MALANG<br />
 - GitHub : jadintasalsabilah<br /><br />
 - Nama : Muchsin<br /> 
